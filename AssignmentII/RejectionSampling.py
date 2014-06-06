@@ -83,10 +83,10 @@ def fasterImplementation(Nsamples, minValue, maxValue, binWidth):
     return time2
    
 def main():
-    z = np.linspace(-50, 50, num=1000) # Getting Uniformly Spaces Zs
+    z = np.linspace(-50, 50, num=1000) # Getting Uniformly Spaced Zs
     # Mean and Covariance of my proposal distribution
     mean = 5
-    covariance = 14.86
+    covariance = 20
     print('Proposal Distribution: Mean:',mean,' Covariance:',covariance)
     # Number of Accepted Samples I want
     Nsamples = 1000000
