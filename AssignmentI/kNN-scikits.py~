@@ -1,0 +1,10 @@
+import numpy as NP
+from sklearn import datasets
+from sklearn import neighbors as kNN
+
+iris = datasets.load_iris()
+data = iris.data
+class_labels = iris.target
+kNN1 = kNN.NeighborsClassifier()
+kNN1.fit(data, class_labels)
+NeighborsClassifier(n_neighbors=5, leaf_size=20, algorithm='auto')
