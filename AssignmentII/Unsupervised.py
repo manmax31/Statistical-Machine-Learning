@@ -43,7 +43,7 @@ def expectation(K, data, mixcoeff, mean, covariance):
 
 def maximisation(responsibilities, K, data): 
     '''Calulating the new mean, covariance and mixing coefficient
-    Input parameters responsibilites, K, data'''  
+    Input parameters responsibilities, K, data'''  
     N_k = np.sum(responsibilities, axis=0)
     # Calculating the new mixing coefficients
     mixcoeff_new = np.array(N_k)/data.shape[0]
