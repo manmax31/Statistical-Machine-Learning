@@ -97,7 +97,7 @@ def main():
     n, bins = createHistogram(goodSamples, minValue=-50, maxValue=50, binWidth=0.1) # Prints the Histogram and returns the values and bins of each bar
     print('Sum of Squared Errors: ', sumSquaredErrors(p, n, bins))
     t2 = fasterImplementation(Nsamples, minValue=-50, maxValue=50, binWidth=0.1)
-    print('Time:  Rejection Sampling:',round(t1,3),'seconds     Improved Sampling:',round(t2,3),'seconds')
+    print('Time:  Rejection Sampling:', round(t1,3), 'seconds     Improved Sampling:', round(t2,3), 'seconds')
     plt.show()    
     
 if __name__ == '__main__':main()
