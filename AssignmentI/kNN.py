@@ -1,6 +1,5 @@
 '''
 COMP 4670/8600: Introduction to Machine Learning 2014
-Author:u5492350 Manab Chetia
 Question 3: CrossValidation and Classification
 '''
 
